@@ -1,7 +1,7 @@
-math := import("math")
-strings := import("strings")
+import "math"
+import "strings"
 
-draw := fn(A, B) {
+fn draw(A, B) {
 	b := []
 	z := []
 	
